@@ -1,0 +1,246 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-05-06T11:57:45.766Z",
+      "user": 1,
+      "content_type": null,
+      "object_id": "1",
+      "object_repr": "Джинсы",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-05-06T11:58:06.875Z",
+      "user": 1,
+      "content_type": null,
+      "object_id": "2",
+      "object_repr": "Кеды",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-05-06T11:58:14.554Z",
+      "user": 1,
+      "content_type": null,
+      "object_id": "3",
+      "object_repr": "Сумки",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2025-05-06T13:10:30.185Z",
+      "user": 1,
+      "content_type": null,
+      "object_id": "1",
+      "object_repr": "синие джинсы",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2025-05-06T13:11:15.365Z",
+      "user": 1,
+      "content_type": null,
+      "object_id": "2",
+      "object_repr": "красные кеды",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2025-05-06T13:11:51.635Z",
+      "user": 1,
+      "content_type": null,
+      "object_id": "3",
+      "object_repr": "розовая сумка",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2025-05-08T13:06:12.572Z",
+      "user": 1,
+      "content_type": null,
+      "object_id": "3",
+      "object_repr": "розовая сумка",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$zezGH4XVjq3t1SHCYsqpVv$gFx3NDqaJS1JnBKJLeNexA6FHQ/OtGKd0T1Btxcx7rU=",
+      "last_login": "2025-05-08T12:45:56.499Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-04-17T13:23:38.272Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$PVASBP7tt7886D2Y3xo6Y9$KuTk+V5E4ybp6YjxM5i1oz/REYN8hl1imc6GB1lFfYg=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "itstart",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-04-22T13:13:11.400Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "2ju94s31u2cadip9qe6o6hvn6tii5lsw",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEMlMe4dO83EIaHVA0kpV0Z_12bdKHbe865L-bDtla_jbz4ObEzA3b63SjER247SPfQbp3H3tZlJr4r_KCDX3vKz8vh_h3UMOq3RqfCZEVA0MZlBOukcCULm8DghBAFFU2gpMklaQ1gFRZHEtGAo2LY-wOuwDak:1uCGre:vMnVQxfE6Rig4FzN2jsjcveyKXXXXeqKAKuCzPPFy0w",
+      "expire_date": "2025-05-20T11:53:34.785Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "3kgj1scnt63lydzzabp67xfr99lm8jjm",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEMlMe4dO83EIaHVA0kpV0Z_12bdKHbe865L-bDtla_jbz4ObEzA3b63SjER247SPfQbp3H3tZlJr4r_KCDX3vKz8vh_h3UMOq3RqfCZEVA0MZlBOukcCULm8DghBAFFU2gpMklaQ1gFRZHEtGAo2LY-wOuwDak:1u5PHg:Fk9Fchwq5gtY00PfGOjzm59VfZyLcdzFSdT0qjFT1K8",
+      "expire_date": "2025-05-01T13:28:04.612Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "41hx8frlil0vj6woj6sr01zkkuk6mjvg",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEMlMe4dO83EIaHVA0kpV0Z_12bdKHbe865L-bDtla_jbz4ObEzA3b63SjER247SPfQbp3H3tZlJr4r_KCDX3vKz8vh_h3UMOq3RqfCZEVA0MZlBOukcCULm8DghBAFFU2gpMklaQ1gFRZHEtGAo2LY-wOuwDak:1u7uhF:5eBTNqv-c_iwTr-Znh40zOsGcOuQTyHMOp0koSgKcfU",
+      "expire_date": "2025-05-08T11:24:49.780Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "7s95if9h2eugyd7pume4kswprn0d4xv9",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEMlMe4dO83EIaHVA0kpV0Z_12bdKHbe865L-bDtla_jbz4ObEzA3b63SjER247SPfQbp3H3tZlJr4r_KCDX3vKz8vh_h3UMOq3RqfCZEVA0MZlBOukcCULm8DghBAFFU2gpMklaQ1gFRZHEtGAo2LY-wOuwDak:1u9j8r:YHSWKc3xaPNv7PtAvecSYxfL_yTdr1wjlkSxEIYz8yw",
+      "expire_date": "2025-05-13T11:28:49.518Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "z5ys4jdjco8di31tgfliqdjjn00g0ufh",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEMlMe4dO83EIaHVA0kpV0Z_12bdKHbe865L-bDtla_jbz4ObEzA3b63SjER247SPfQbp3H3tZlJr4r_KCDX3vKz8vh_h3UMOq3RqfCZEVA0MZlBOukcCULm8DghBAFFU2gpMklaQ1gFRZHEtGAo2LY-wOuwDak:1uD0dQ:h5gUXvNM6p4pREUd_AyDuRJFDa4eT7S3h_H-fn4dF3U",
+      "expire_date": "2025-05-22T12:45:56.504Z"
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 1,
+    "fields": {
+      "name": "Джинсы",
+      "description": "Покупайте наши джинсы"
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 2,
+    "fields": {
+      "name": "Кеды",
+      "description": ""
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 3,
+    "fields": {
+      "name": "Сумки",
+      "description": ""
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 4,
+    "fields": {
+      "name": "Куртки",
+      "description": "Очень теплые куртки"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "синие джинсы",
+      "image": "product_images/big-03.jpg",
+      "short_description": "",
+      "description": "красивые",
+      "price": "543.00",
+      "quantity": 3,
+      "created": "2025-05-06T13:10:30.185Z",
+      "updated": "2025-05-06T13:10:30.185Z"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 2,
+    "fields": {
+      "category": 2,
+      "name": "красные кеды",
+      "image": "product_images/product-04.jpg",
+      "short_description": "",
+      "description": "удобные",
+      "price": "234.00",
+      "quantity": 9,
+      "created": "2025-05-06T13:11:15.363Z",
+      "updated": "2025-05-06T13:11:15.363Z"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 3,
+    "fields": {
+      "category": 3,
+      "name": "розовая сумка",
+      "image": "",
+      "short_description": "",
+      "description": "маленькая",
+      "price": "465.00",
+      "quantity": 5,
+      "created": "2025-05-06T13:11:51.634Z",
+      "updated": "2025-05-08T13:06:12.571Z"
+    }
+  }
+]

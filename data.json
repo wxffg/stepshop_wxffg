@@ -1,0 +1,95 @@
+[
+  {
+    "model": "sessions.session",
+    "pk": "7s95if9h2eugyd7pume4kswprn0d4xv9",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEMlMe4dO83EIaHVA0kpV0Z_12bdKHbe865L-bDtla_jbz4ObEzA3b63SjER247SPfQbp3H3tZlJr4r_KCDX3vKz8vh_h3UMOq3RqfCZEVA0MZlBOukcCULm8DghBAFFU2gpMklaQ1gFRZHEtGAo2LY-wOuwDak:1u9j8r:YHSWKc3xaPNv7PtAvecSYxfL_yTdr1wjlkSxEIYz8yw",
+      "expire_date": "2025-05-13T11:28:49.518Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "z5ys4jdjco8di31tgfliqdjjn00g0ufh",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEMlMe4dO83EIaHVA0kpV0Z_12bdKHbe865L-bDtla_jbz4ObEzA3b63SjER247SPfQbp3H3tZlJr4r_KCDX3vKz8vh_h3UMOq3RqfCZEVA0MZlBOukcCULm8DghBAFFU2gpMklaQ1gFRZHEtGAo2LY-wOuwDak:1uD0dQ:h5gUXvNM6p4pREUd_AyDuRJFDa4eT7S3h_H-fn4dF3U",
+      "expire_date": "2025-05-22T12:45:56.504Z"
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 1,
+    "fields": {
+      "name": "Джинсы",
+      "description": "Покупайте наши джинсы"
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 2,
+    "fields": {
+      "name": "Кеды",
+      "description": ""
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 3,
+    "fields": {
+      "name": "Сумки",
+      "description": ""
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 4,
+    "fields": {
+      "name": "Куртки",
+      "description": "Очень теплые куртки"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "синие джинсы",
+      "image": "product_images/big-03.jpg",
+      "short_description": "",
+      "description": "красивые",
+      "price": "543.00",
+      "quantity": 3,
+      "created": "2025-05-06T13:10:30.185Z",
+      "updated": "2025-05-06T13:10:30.185Z"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 2,
+    "fields": {
+      "category": 2,
+      "name": "красные кеды",
+      "image": "product_images/product-04.jpg",
+      "short_description": "",
+      "description": "удобные",
+      "price": "234.00",
+      "quantity": 9,
+      "created": "2025-05-06T13:11:15.363Z",
+      "updated": "2025-05-06T13:11:15.363Z"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 3,
+    "fields": {
+      "category": 3,
+      "name": "розовая сумка",
+      "image": "",
+      "short_description": "",
+      "description": "маленькая",
+      "price": "465.00",
+      "quantity": 5,
+      "created": "2025-05-06T13:11:51.634Z",
+      "updated": "2025-05-08T13:06:12.571Z"
+    }
+  }
+]
