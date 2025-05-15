@@ -29,14 +29,17 @@
     
     <!-- Pre Header -->
     <div id="pre-header">
-      <div class="container">
+      <div class="container d-md-flex justify-content-md-end">
         <div class="row">
           <div class="col-md-12">
             <span>
               {% if user.is_authenticated %}
                   {{ user.username|title }}
+                  <a href="{% url 'auth:logout' %}"
+                     class="btn btn-light btn-sm mx-3">Выйти</a>
               {% else %}
-                  Гость
+                  <a href="{% url 'auth:login' %}"
+                     class="btn btn-light btn-sm mx-3">Войти</a>
               {% endif %}
 
               {# , {{ user.is_active }} #}
