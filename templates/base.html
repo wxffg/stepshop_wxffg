@@ -34,7 +34,10 @@
           <div class="col-md-12">
             <span>
               {% if user.is_authenticated %}
-                  {{ user.username|title }}
+                  <a href="{% url 'auth:edit' %}"
+                     class="btn btn-light btn-sm">
+                          {{ user.username|title }}
+                  </a>
                   <a href="{% url 'auth:logout' %}"
                      class="btn btn-light btn-sm mx-3">Выйти</a>
               {% else %}
