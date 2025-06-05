@@ -1,0 +1,11 @@
+#filters a {
+    color: #000;
+}
+
+#filters a:hover {
+    color: #3a8bcd;
+}
+
+#filters a.active {
+    color: #3a8bcd;
+}
