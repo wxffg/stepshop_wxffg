@@ -34,7 +34,9 @@
       <div class="container d-md-flex justify-content-md-end">
         <div class="row">
           <div class="col-md-12">
-            <span>
+            {% if temp %}
+            <span>{{ temp }}</span>
+            {% endif %}
 
               <span class="buttons">
               {% if user.is_authenticated %}
@@ -51,19 +53,18 @@
                   <a href="{% url 'auth:logout' %}"
                      class="btn btn-light btn-sm mx-3">Выйти</a>
 
-                {% if basket %}
-                  <a href="#" class="basket mx-3">
-                    <span>{{ basket.0.total_quantity }}</span>
-                  </a>
-                  <span>{{ basket.0.total_cost|floatformat:0 }} тг.</span>
-                {% endif %}
+
+                  {% if basket %}
+                    <a href="{% url 'basket:view' %}" class="basket mx-3">
+                      <span>{{ basket.0.total_quantity }}</span>
+                    </a>
+                    <span>{{ basket.0.total_cost|floatformat:0 }} тг.</span>
+                  {% endif %}
 
               {% else %}
                   <a href="{% url 'auth:login' %}"
                      class="btn btn-light btn-sm mx-3">Войти</a>
               {% endif %}
-            </span>
-              {# , {{ user.is_active }} #}
             </span>
           </div>
         </div>
